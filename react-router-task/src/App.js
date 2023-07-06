@@ -13,7 +13,7 @@ function App() {
         <div className='container pt-1 pb-3'>
           <div className='navbar'>
             <a className="navbar-brand" href="#">
-              <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" width="121" height="53" className="d-inline-block align-top" alt="" />
+              <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" referrerpolicy="no-referrer" width="121" height="53" className="d-inline-block align-top" alt="" />
             </a>
             <div className='navbar navbar-all'>
               <Link to="/blog" style={{ textDecoration: 'none' }}><p>COURSES</p></Link>
@@ -26,7 +26,7 @@ function App() {
 
         </div>
         <div className='container'>
-          <img src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png" alt="guvi" height="200" />
+          <img src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png" referrerpolicy="no-referrer" alt="guvi" height="200" />
         </div>
         <div className='container'>
           <div className='navbar navbar-course mt-5 mb-5 w-50 mx-auto'>
