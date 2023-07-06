@@ -6,7 +6,7 @@ export default function Career() {
     const [allCourses,setAllCourses] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/courses.json")
+        fetch(`${process.env.REACT_APP_BASE_URL}${process.env.REACT_APP_MOCKS_COURSES_PATH}`)
         .then(respone => respone.json())
         .then((result) => {
             if(result.courses){
